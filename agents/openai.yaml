@@ -1,0 +1,7 @@
+interface:
+  display_name: "多代理协作讨论"
+  short_description: "先对齐背景，再三轮对峙、逐项解决，由A方汇总最终方案"
+  default_prompt: "使用 $discuss-with-agents 与真实子代理或其他模型先对齐背景，再三轮对峙、逐项解决；由 A 方汇总最终方案，用户另有指定时按其指定执行。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+# 讨论账本保留在使用者工作区，不提交到技能仓库。
+/discussion/
+/debate/
